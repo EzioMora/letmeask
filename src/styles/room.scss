@@ -15,6 +15,17 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
+      }
     }
   }
 
@@ -107,110 +118,9 @@
         }
       }
     }
+  
+    .questions-list {
+      margin-top: 32px;
+    }
   }
-
 }
-
-// .page-room {
-//   header {
-//     border: 1px solid #E2E2E2;
-//     margin-bottom: 35px;
-
-//     .content {
-//       display: flex;
-//       flex-direction: row;
-//       justify-content: space-between;
-//       align-items: center;
-
-//       max-width: 1152px;
-//       padding: 0 16px;
-//       height: 116px;
-//       margin: 0 auto;
-
-//       img {
-//         max-width: 100px;
-//       }
-//     }
-//   }
-
-//   main {
-//     .room-title {
-//       display: flex;
-//       flex-direction: row;
-//       align-items: center;
-
-//       max-width: 832px;
-//       padding: 0 16px;
-//       margin: 0 auto 24px auto; 
-
-//       h1 {
-//         font-family: Poppins;
-//         font-weight: bold;
-//         font-size: 24px;
-//         line-height: 36px;
-//         margin-right: 16px;
-//       }
-
-//       span {
-//         font-family: Roboto;
-//         font-weight: 500;
-//         font-size: 14px;
-//         line-height: 16px;
-//         color: #fff;
-//         background-color: #E559F9;
-//         border-radius: 51px; 
-//         padding: 8px 16px;
-//       }
-//     }
-
-//     form {
-//       max-width: 832px;
-//       padding: 0 16px;
-//       margin: 0 auto;
-
-//       textarea {
-//         width: 100%;
-//         min-height: 133px;
-//         resize: none;
-//         border: none;
-//         outline: none;
-//         padding: 16px;
-//         background: #FEFEFE;
-//         box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
-//         border-radius: 8px;
-//         margin-bottom: 33px;
-//       }
-
-//       .form-footer {
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-between;
-//         align-items: center;
-
-//         > button {
-//           margin: unset;
-//         }
-//       }
-
-//       span {
-//         font-family: Roboto;
-//         font-size: 14px;
-//         font-weight: 500;
-//         line-height: 16px;
-//         color: #737380;
-
-//         button {
-//           font-family: Roboto;
-//           font-size: 14px;
-//           font-weight: 500;
-//           line-height: 16px;
-//           color: #835AFD;
-//           border: none;
-//           background-color: transparent;
-//           text-decoration: underline;
-//           cursor: pointer;
-//         }
-//       }
-//     }
-//   }
-// }
