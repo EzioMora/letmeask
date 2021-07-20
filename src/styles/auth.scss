@@ -1,3 +1,4 @@
+
 #page-auth {
   display: flex;
   flex-direction: row;
@@ -52,7 +53,7 @@
     max-width: 320px;
     text-align: center;
 
-    > img {
+    .logo-svg {
       align-self: center;
     }
 
@@ -141,6 +142,72 @@
       font-weight: bold;
       line-height: 36px;
       margin: 56px 0 24px 0;
+    }
+  }
+}
+
+// dark-mode
+
+.dark-mode {
+  
+  #page-auth {
+    color: #fff;
+
+    aside {
+      background-color: #121212;
+
+      img {
+        max-width: 320px;
+      }
+
+      strong {
+        color: rgba(255,255,255, 0.8);
+      }
+
+      p {
+        color: rgba(255,255,255, 0.8);
+      }
+    }
+
+    main {
+      background-color: black;
+    }
+
+    .main-content {
+      > img {
+        align-self: center;
+      }
+
+      .create-room  {
+        background: darkred;
+        color: rgba(255,255,255, 0.8);
+
+        img {
+          filter: brightness(0.7);
+        }
+      }
+
+      .separator {
+        color: #fff;
+
+        &::before,&::after {
+          border: 1px solid #fff;
+        }
+      }
+
+      form {
+        input {
+          background-color: #121212;
+          border: none;
+          color: rgba(255,255,255, 0.8);
+          outline: none;
+        }
+
+        button {
+          color: rgba(255,255,255, 0.8);
+          background: rebeccapurple;
+        }
+      }
     }
   }
 }
